@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section-container {
+    max-width: 1000px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.big-container {
+    max-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.margin-left {
+    margin-left: 5%;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+
+.menu-bar {
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid #F1EEE8;
+    background: white;
+    font-size: 13px;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.menu-col-1 {
+    max-width: 100%;
+    float: left;
+}
+
+.menu-col-2 {
+    max-width: 100%;
+    float: right;
+}
+
+.nav-logo {
+    width: 120px;
+    padding: 15px;
+    float: left;
+}
+
+.nav-bar {
+    float: left;
+    padding: 17px 0;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar a {
+    padding: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar a:hover {
+    background: #F1EEE8;
+    transition: background-color 300ms;
+}
+
+.nav-button {
+    float: left;
+    padding: 17px 0;
+}
+
+.nav-button a {
+    margin: 0 20px;
+    padding: 8px 15px;
+    text-decoration: none;
+    background: #0160FF;
+    color: white;
+}
+
+.nav-button a:hover {
+    background: #3A7AFF;
+    transition: background-color 300ms;
+}
+
+
+.jumbo-container {
+    max-width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    background: #B3D0E7;
+}
+
+.jumbo-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.jumbo-title {
+    padding: 40px 0;
+    font-size: 60px;
+}
+
+.jumbo-col-1 {
+    width: 40%;
+    font-size: 14px;
+    float: left;
+}
+
+.description {
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.trial-button {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #0160FF;
+    padding: 10px 20px;
+}
+
+.trial-button:hover {
+    background: #3A7AFF;
+    transition: background-color 300ms;
+}
+
+.cancel {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.download {
+    font-size: 40px;
+    color: black;
+}
+
+.download:hover {
+    color: white;
+    transition: color 300ms;
+}
+
+.jumbo-col-2 {
+    width: 60%;
+    float: left;
+}
+
+
+.main-row-1  h1 {
+    padding: 50px 0;
+    font-size: 36px;
+}
+
+.radio-buttons {
+    padding-bottom: 30px;
+}
+
+label {
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+
+
+.main-col {
+    max-width: 30%;
+    height: 1000px;
+    float: left;
+    border: 2px solid #EAEAEC;
+}
+
+.main-col h1 {
+    padding: 10px;
+    border-bottom: 2px solid #EAEAEC;
+    text-align: center;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.col-content {
+    padding: 20px
+}
+
+.col-content p {
+    font-size: 13px;
+}
+
+.main-col h3 {
+    font-weight: bolder;
+}
+
+.price {
+    font-weight: bolder;
+    padding: 10px 0
+}
+
+.monthly {
+    padding-bottom: 50px;
+    font-size: 13px;
+    color: #6E7D8A;
+}
+
+.users, .drive, .functions {
+    padding-bottom: 20px;
+}
+
+.month-trial {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#large {
+    padding: 10px 45px;
+}
+
+.buy-now {
+    padding: 40px 0;
+}
+
+.plan {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.col-content li {
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+
+.main-row-2 {
+    max-width: 100%;
+    margin-bottom: 120px;
+    border: 2px solid #EAEAEC;
+}
+
+.main-row-2-title {
+    padding: 10px;
+    border-bottom: 2px solid #EAEAEC;
+    text-align: center;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.row-col-1 {
+    width: 70%;
+    padding: 20px;
+    float: left;
+}
+
+.row-col-1 h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info-price {
+    padding: 20px 0;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.solutions {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.row-col-2 {
+    width: 30%;
+    padding: 20px;
+    float: left;
+}
+
+.main-row-2-button {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.partner-col {
+    width: 50%;
+    float: left;
+}
+
+.partner-description {
+    padding: 40px;
+}
+
+.partner-description p {
+    padding: 20px 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.partner-description a {
+    padding: 8px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.partner-description a:hover {
+    background: #F1EEE8;
+    transition: background-color 300ms;
+}
+
+
+.main-row-3 h1 {
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.card {
+    width: 30%;
+    padding: 50px 0;
+    float: left;
+}
+
+.card-img {
+    width: 250px;
+}
+
+.card h1 {
+    padding: 10px 0;
+}
+
+.card p {
+    max-width: 92%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.main-row-4 {
+    margin-top: 50px;
+}
+
+.main-row-4 h1 {
+    max-width: 50%;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.jumbo-container-2 {
+    max-width: 100%;
+    height: 700px;
+    margin: 20px 0;
+    background: #B3D0E7;
+}
+
+.square {
+    width: 30%;
+    height: 380px;
+    float: left;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.logo:not(#no-hover) img {
+    padding: 50px;
+}
+
+#no-hover img {
+    padding: 40px;
+}
+
+.logo:not(#no-hover):hover {
+    border: 8px solid rgba(255, 255, 255, 0.5);
+    transition: border 300ms;
+}
+
+.rectangle {
+    width: 40%;
+    height: 380px;
+    float: left;
+    background: #F5F5F5;
+}
+
+.rectangle-container {
+    padding: 40px;
+}
+
+.brand {
+    width: 120px;
+}
+
+.rectangle-container p {
+    font-size: 14px;
+}
+
+.citazione {
+    padding-bottom: 40px;
+}
+
+.banner {
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.banner-title {
+    width: 50%;
+    padding-top: 130px;
+    float: left;
+}
+
+.banner-content {
+    width: 50%;
+    padding-top: 140px;
+    float: left;
+}
+
+.banner-button {
+    text-align: right;
+    font-size: 13px;
+}
+
+.trial-button-2 {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background: #FFFFFF;
+    padding: 10px 45px;
+}
+
+.trial-button-2:hover {
+    background: #F1EEE8;
+    transition: background-color 300ms;
+}
+
+
+.faq-title {
+    padding: 40px 0;
+    font-size: 36px;
+}
+
+.faq-content:hover .lorem {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.faq {
+    padding: 30px 0;
+    border-top: 1px solid #DCDCDE;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+#arrow {
+    padding-right: 50px;
+    float: right;
+}
+
+.lorem {
+    display: none;
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.jumbo-container-3 {
+    max-width: 100%;
+    background: #000000;
+    color: white;
+}
+
+.footer-col {
+    width: 20%;
+    height: 300px;
+    padding-top: 60px;
+    float: left;
+}
+
+.footer-col ul {
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.footer-col li {
+    line-height: 25px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+.language {
+    max-width: 100px;
+    height: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #B5B5B5;
+    color: #515151;
+}
+
+.language-selection {
+    border: 0;
+    text-decoration: none;
+    background: #000000;
+    color: #515151;
+}
